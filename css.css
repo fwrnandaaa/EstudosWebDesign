@@ -4,20 +4,33 @@ display:flex;
 
 header{
     display: inline;
+    background-image: url(imagens/bach-header-1.png);
 }
 
 nav{
     width: 250px;
-    background-color: rgb(23, 124, 182);
+    background-color:#9acff3;
     color: white;
     padding: 20px;
 }
 main > img{
-    width: 250px;
-    border: 1px solid rgb(23, 124, 182);
+    width: 390px;
+    border: 1px solid #1A77B3;
     display: block;  
     margin-left: auto;
     margin-right: auto;
-    
+    text-align: center;
+}
+p, h2{
+    color: #1A77B3;
 }
 
+h2{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+h1{
+    color: white;
+}
