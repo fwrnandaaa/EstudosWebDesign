@@ -1,36 +1,44 @@
-body {
-display:flex;
+div {
+  display: flex;
 }
 
-header{
-    display: inline;
-    background-image: url(imagens/bach-header-1.png);
+header {
+  background-image: url(imagens/bach-header-1.png);
+  height: 100px;
 }
 
-nav{
-    width: 250px;
-    background-color:#9acff3;
-    color: white;
-    padding: 20px;
+nav {
+  width: 250px;
+  background-color: #9acff3;
+  color: white;
+  padding: 20px;
 }
-main > img{
-    width: 390px;
-    border: 1px solid #1A77B3;
-    display: block;  
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+main > img {
+  width: 390px;
+  border: 1px solid #1a77b3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
-p, h2{
-    color: #1A77B3;
+p,
+h2 {
+  color: #1a77b3;
 }
 
-h2{
-    font-family:  Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    
+h2 {
+  border-bottom: 2px solid #1a77b3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-h1{
-    color: white;
+h1 {
+  color: white;
+  background-color: #171748;
+  width: 250px;
+  height: 100px;
+}
+
+#imgDois {
+  margin-top: 10px;
 }
