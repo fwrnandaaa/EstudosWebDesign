@@ -2,7 +2,7 @@
   font-family: charm;
   src: url(fonts/Charm/Charm-Bold.ttf);
 }
-body{
+body {
   background-image: url(imagens/barra-lateral.png);
   background-repeat: repeat-y;
 }
@@ -30,34 +30,37 @@ nav ul {
 }
 
 nav li a {
-
   text-decoration: dotted;
   color: black;
-
 }
 
 nav {
   line-height: 40px;
   width: 192px;
-  background-color: #D4E3FE;
+  background-color: #d4e3fe;
   color: white;
-
-  
- 
 }
-nav li:hover {
-  background: #5757df;
-  color: whites;
-  }
+nav ul :hover {
+  background: #738fc4;
+  color: white;
+}
 
-main>img {
+nav ul a.ctive,
+nav ul a.ctive:hover {
+  background: #d4e3fe;
+  color: white;
+}
+
+main > img {
   width: 390px;
   border: 1px solid #1a77b3;
   display: block;
   margin-left: 200px;
-  margin-right: auto
+  margin-right: auto;
 }
-
+main {
+  margin-left: 3%;
+}
 p,
 h2 {
   color: #1a77b3;
@@ -82,9 +85,12 @@ header div {
   height: 100px;
 }
 
-
-#imgDois {
+#imgDois,
+#imgTres {
   margin-top: 10px;
+}
+#imgTres {
+  width: 40%;
 }
 
 ul li {
@@ -94,4 +100,31 @@ ul li {
 p {
   padding: 0%;
   margin: 0%;
+}
+
+#usabilidade {
+  padding-left: 5px;
+}
+
+#centrado {
+  margin-left: 5%;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+td,
+tr {
+  border: 1px solid #000; /* Borda preta */
+  padding: 8px;
+  text-align: left;
+}
+
+.azul {
+  text-align: center;
+  background-color: #d4e3fe;
 }
